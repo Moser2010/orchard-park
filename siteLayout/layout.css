@@ -1,0 +1,17 @@
+body {
+    background:#E4E4E4;
+}
+
+.wrapper {
+    background:#fff;
+    margin:0px auto;
+    width:50%;
+    min-height:1800px;
+    border:solid black 1px;
+}
+
+.pure-u-1-1 {
+    width:100%;
+    min-height:50px;
+    background:red;
+}

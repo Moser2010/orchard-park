@@ -1,0 +1,155 @@
+.livingGoodHeader {
+   background-image:url("images/enterance.jpg");
+   background-size:cover;
+   min-width:100%;
+   min-height:300px;
+   margin-top:-20px;
+   border-bottom:solid #2d1d1e 5px;
+}
+
+.p-content {
+        min-height:120px;
+        max-height:121px;
+        padding:3%;
+        overflow:auto;
+}
+
+.pure-u-1-3 {
+    margin:3%;
+}
+.featured-section-full{
+    margin:3%;
+    width:27%;
+
+}
+
+
+.enterance {
+    min-width:100%;
+    border-top:solid #2d1d1e 7px;
+    border-bottom:solid #2d1d1e 7px;
+}
+
+
+
+.mission {
+    border:solid #6bbd4c 1px;
+    background-color: #e1e1e1;
+}
+
+
+
+
+
+.staff-section {
+    padding: 2% 3%;
+}
+
+.section-title  {
+    margin:10px auto;
+    color: #974a51;
+    text-align: center;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+button {
+    background-color: #8e343d;
+    color:white;
+
+}
+button :hover {
+    background-color:grey;
+    cursor:pointer;
+   
+}
+
+
+.footer-logo {
+    display:inline;
+}
+facebook-buttons-footer {
+    margin-top:2%;
+}
+
+.livingRoom1 {
+    background-image:url("images/family.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.livingRoom2 {
+    background-image:url("images/family.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.box {
+    min-height:200px;
+    overflow:hidden;
+}
+
+.blur {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.blur:before {
+    content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.blur:after {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25)
+}
+
+.blur h3 {
+     margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.livingRoomContent {
+    margin: 1% 0%;
+    border:solid #6bbd4c 3px;
+    background-color: #e1e1e1;
+}
+
+section {
+    margin-top:2%;
+}
+
+.medical {
+    min-height:255px;
+}
+
+.caption ul li {
+    font-size:1.5em;    
+}

@@ -1,0 +1,151 @@
+body {
+    background: #E4E4E4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #8e343d;
+    text-align: center;
+}
+
+section {
+    border-bottom: solid #2d1d1e 2px;
+}
+
+section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 40%);
+    margin: 0px auto;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    color: white;
+}
+button a {
+    color:white;
+}
+
+
+section {
+    margin-top:2%;
+    text-decoration:none;
+}
+p {
+    font-size:1em;
+    font-family:arial;
+    padding:3%;
+    line-height:1.25;
+}
+.navbar {
+    border-bottom:solid #2d1d1e 3px;
+    border-top:solid #2d1d1e 3px;
+    min-width:100%;
+    background-color:white;
+}
+.nav :hover {
+    background-color: #e1e1e1;
+}
+
+
+.wrapper {
+    background:#fff;
+    margin:10px auto;
+    max-width:60%;
+    border:solid black 1px;
+}
+header img {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.logo {
+    margin:10px;
+}
+.location-info{
+
+    width: 57%;
+    display: block;
+    margin: 10px auto;
+}
+
+.fb-like, .fb-follow {
+    position: relative;
+    margin:7px 5px;
+    float:right;
+}
+
+.livingRoomContent {
+    text-align:center;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color:transparent;
+}
+nav ul li a{
+    font-size: 12pt;
+
+}
+.navbar-default .navbar-nav>li>a {
+     color:#8e343d;
+}
+
+.footer-logo {
+    display:inline;
+    margin: 2%;
+}
+
+.phoneEmail {
+    padding: 15% 0% 0% 10%;
+}
+
+button:hover {
+    background-color:gray;
+}
+
+.mobileForm {
+    display:none;
+}
+/*Phones and handhelds */
+
+@media only screen and (min-width: 300px) and (max-width: 749px){
+    
+    .wrapper {
+        max-width:100%;
+    }
+      .mobileForm {
+        display:block;
+    }
+   .fullForm {
+       display:none;
+   }
+     .location-info {
+    width: 100%;
+     }
+     .map {
+         width: 100%;
+     }
+    
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 750px) and (max-width:1300px){
+
+   
+    .wrapper {
+        max-width: 80%;
+    }
+    .mobileForm {
+        display:block;
+    }
+   .fullForm {
+       display:none;
+   }
+}
